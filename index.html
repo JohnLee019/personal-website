@@ -9,18 +9,36 @@
 <body>
     <h1>Hongmin(John) Lee</h1>
     <div class="logo-container">
-        <a href="https://github.com/JohnLee019">
-            <img src="image/github.png" alt="github" class="logo"> 
-        </a>
-        <a href="https://www.linkedin.com/in/hongmin-john-lee-2b398226b">
-            <img src="image/linkdein.png" alt="linkdein" class="logo">
-        </a>
+        <div id="logo_image">
+            <a href="https://github.com/JohnLee019">
+                <img src="image/github.png" alt="github" class="logo"> 
+            </a>
+            <div class="logo_name">github</div>
+        </div>
+        </br>
+        <div class="logo_image">
+            <a href="https://www.linkedin.com/in/hongmin-john-lee-2b398226b">
+                <img src="image/linkdein.png" alt="linkdein" class="logo">
+            </a>
+            <div class="logo_name">Linkdein</div>
+        </div>
+        </br>
+        <div class="email">
+            <span id="email_name">ohno0601111@gmail.com</span>
+            <button id="copyBtn" onclick="copyEmail()">
+                <span id="btnText">
+                    📧Copy
+                </span>
+            </button>
+            <!-- 이메일 복사 기능 아림을 copy를 누르면 체크 마크로 변하게 수정하기-->
+        </div>
     </div>
     <div class="section-cotainer">
         <a href="#projects">Projects</a>
         <a href="#research">Research</a>
-        <a href="#resume">Resume</a>
         <a href="#About_Me">About Me</a>
+        <a href="#resume">Resume</a>
     </div>
 </body>
+<script src="index.js"></script>
 </html>
