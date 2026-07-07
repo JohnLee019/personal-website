@@ -1,4 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .logo{
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
+}
+
+.section-container {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    display: flex;
+    gap: 24px;
+}
+
+#head {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 50px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }

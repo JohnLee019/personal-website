@@ -7,22 +7,20 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1>Hongmin(John) Lee</h1>
+    <h1 id="head">Hongmin(John) Lee</h1>
     <div class="logo-container">
-        <div id="logo_image">
+        <div class="logo_image">
             <a href="https://github.com/JohnLee019">
                 <img src="image/github.png" alt="github" class="logo"> 
             </a>
-            <div class="logo_name">github</div>
+            <!-- <div class="logo_name">github</div> -->
         </div>
-        </br>
         <div class="logo_image">
             <a href="https://www.linkedin.com/in/hongmin-john-lee-2b398226b">
                 <img src="image/linkdein.png" alt="linkdein" class="logo">
             </a>
-            <div class="logo_name">Linkdein</div>
+            <!-- <div class="logo_name">Linkdein</div> -->
         </div>
-        </br>
         <div class="email">
             <span id="email_name">ohno0601111@gmail.com</span>
             <button id="copyBtn" onclick="copyEmail()">
@@ -32,12 +30,40 @@
             </button>
             <!-- 이메일 복사 기능 아림을 copy를 누르면 체크 마크로 변하게 수정하기-->
         </div>
+        <div id="resume">
+            <!-- 나중에 제대로된 resume file path 추가하기 -->
+            <a href="" download="Hongmin_John_Lee_Resume.png">view resume</a>
+        </div>
     </div>
-    <div class="section-cotainer">
+    <div class="section-container">
         <a href="#projects">Projects</a>
+
         <a href="#research">Research</a>
         <a href="#About_Me">About Me</a>
         <a href="#resume">Resume</a>
+    </div>
+    <div id="projects">
+        <div>The projects that are included in here are some personal projects that I made which I wanted to share</div>
+    </div>
+    <!-- 카드 형식으로 보여주고, 해당 카드를 누르면 github의 해당 repository로 연결 -->
+    <div id="research">
+        <div>My main area of interest is AI. Specifically, I'm currently working in an LMM (Large Multimodal Model) Lab at Dongguk University,
+            where I experiment with and test ideas in the field of autonomous driving.
+        </div>
+    </div>
+    <div id="About_Me">
+        <!-- 나중에 사진 추가하기 -->
+        <img src="" alt="profile_picture" id="profile_pic">
+        <div class="about_me_content">
+            Hey, my name is Hongmin (John) Lee and I'm from Seoul, South Korea. I'm currently a sophomore in the Rutgers University Honors College,
+            planning to major in Computer Science. My favorite things to do are watching sports (mostly soccer, football, and basketball) and
+            reading Korean webtoons, which are kind of like comics. Right now I'm most interested in AI, mainly because of my work in an
+            LMM (Large Multimodal Model) lab. I'm always open to making new friends, so feel free to contact me!
+        </div>
+    </div>
+    <div id="resume">
+        <!-- 나중에 제대로된 resume file path 추가하기 -->
+        <a href="" download="Hongmin_John_Lee_Resume.png">view resume</a>
     </div>
 </body>
 <script src="index.js"></script>
